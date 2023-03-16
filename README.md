@@ -15,4 +15,4 @@ An example on how to create a database &amp; inserting the data using python to 
 + pandas
 
 
-By <b>TATI</b>. 16-03-23
+By <b>TATI & SAID</b>. 16-03-23
