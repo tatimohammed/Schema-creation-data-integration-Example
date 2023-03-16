@@ -1,0 +1,4 @@
+order_id,product_id,user_id,quantity,order_date
+1,2,1,1,2022-01-01
+2,3,2,5,2022-01-02
+3,1,1,15,2022-01-03
