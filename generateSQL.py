@@ -24,7 +24,7 @@ class table():
 
                 # start table creation
                 script.write(
-                    f'CREATE IF NOT EXIST TABLE {self.name} {"{"} {str(list_of_attributes[0][0]).upper()} {str(list_of_attributes[0][1]).upper()},\n')
+                    f'CREATE IF NOT EXIST TABLE {self.name}  ( {str(list_of_attributes[0][0]).upper()} {str(list_of_attributes[0][1]).upper()},\n')
 
                 for (k, v) in list_of_attributes[1:len(attributes.items())-1]:
                     # write attributes
@@ -33,7 +33,7 @@ class table():
 
                 # write the last attribute
                 script.write(
-                    f'{str(list_of_attributes[-1][0]).upper()} {str(list_of_attributes[-1][1]).upper()} {"}"}\n\n')
+                    f'{str(list_of_attributes[-1][0]).upper()} {str(list_of_attributes[-1][1]).upper()} )\n\n')
 
             # close file
             script.close()
